@@ -1,0 +1,169 @@
+/* Estilos gerais */
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    color: #333;
+  }
+
+.destaque {
+  font-weight: 600;
+  font-size:20px;
+}
+
+.dicas{
+  color: #5CA508;
+  font-weight: 500;
+}
+
+
+
+
+  /*Barra de navegação  */
+  #navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5CA508;
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav_menu li {
+    margin-right: 20px;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5b09a8;
+    font-weight: bolder;
+}
+
+.nav_logo {
+    width: 100px;
+    height: auto;
+}
+
+.btn_voltar {
+  background-color: #fff;
+  color: #5CA508;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  
+  
+  #hero_section {
+    background-image: url('img/arvores.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+  }
+
+  .subtitulo {
+    font-weight: bolder;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  
+  #hero_section h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  #artigo_content {
+    padding: 20px;
+  }
+  
+  #artigo_content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  #artigo_content p {
+    margin-bottom: 15px;
+  }
+
+  article{
+    margin: 20px;
+  }
+  
+  .imagem_central {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .imagem_central img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Sobre Mim */
+  #sobre_mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f6f6d4;
+  }
+  .texto {
+    max-width: 65%;
+    padding: 0px 10px;
+  }
+  .texto h2 {
+    font-size: 1.5rem;
+    color: #6a0dad;
+    font-weight: 600;
+    margin: 10px 0px 0px;
+  }
+  .texto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0;
+  }
+  .imagem {
+    max-width: 10%;
+    margin-right: 10px;
+  }
+  .imagem img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.info_contatos{
+  display: flex;
+  gap: 10px;
+}
+
+.info_contatos a{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  color: #fff;
+  background-color: #b66dfa;
+  border-radius: 35px;
+}
+
+.info_contatos a:hover{
+  background-color: #ec823a;
+  color: #fff;
+}
+
+.info_contatos img{
+  width: 25px;
+  margin-right: 5px;
+}
+  

@@ -1,12 +1,7 @@
 body {
+    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", Sans Serif;
-}
-
-.destaque {
-    text-align: center;
-    font-weight: bold;
 }
 
 #navegacao {
@@ -29,54 +24,213 @@ body {
 .nav_menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #5b09a8;
+    color: #5CA508;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .nav_logo {
-    width: 200px;
-}
-
-#autora {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.minhaFoto {
+    width: 95px;
     height: auto;
-    width: 200px;
-    border-radius: 100px;
+    margin-left:20px;
 }
 
-.conteiner {
+
+/* Hero section - Primeira Seção */
+#hero {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6d4;
+}
+
+#hero .content {
+    max-width: 50%;
+    margin-left: 40px;
+
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+    font-weight: 900;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 0 45px 20px 0;
+}
+
+#hero img{
     width: 100%;
-    max-width: 700px;
 }
 
-.intro_autora{
-    margin-right: 30px;
+button {
+    background-color: #f0c02f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 35px;
+    color: #000;
 }
 
-.titulo_autora {
+button:hover{
+    background-color: #5CA508;
+    color:#fff
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: inherit;
+}
+
+
+.quote {
+    background-color: #5CA508;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+cite {
+    font-weight: 600;
+}
+
+#Artigos {
+    padding: 40px;
     text-align: center;
 }
 
-.artigo_autora h2{
-    color: #1cc7c7;
+#Artigos h2 {
+    font-size: 2rem;
+    margin: 0 0 15px;
+    font-weight: 900;
 }
 
-#rodape{
-    background-color: #edeaea;
+#Artigos .objetivo{
+    margin: 1.5% 15% ;
+    font-weight: 600;
+}
+
+.plant_pattern img{
+    border-radius: 0 100% 100% 0%;
+    position: absolute;
+    width: 30%;
+    z-index: -1;
+}
+
+/* Cards Artigos */
+.card_container {
     display: flex;
     justify-content: center;
+    gap: 3%;
+    color: #fff;
+    }
+
+.card {
+    background-color: #013E01;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 240px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #6a0dad;
+}
+
+.card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card p{
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* Sobre Mim */
+#sobre_mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f6f6d4;
+  }
+  .texto {
+    max-width: 60%;
+    padding: 0px 20px;
+  }
+  .texto h2 {
+    font-size: 2.5rem;
+    color: #6a0dad;
+    font-weight: 900;
+    margin: 10px;
+  }
+  .texto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0;
+  }
+  .imagem {
+    max-width: 15%;
+  }
+  .imagem img {
+    width: 100%;
+    border-radius: 100%;
+  }
+ 
+  .info_contatos{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .info_contatos a{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    background-color: #b66dfa;
+    border-radius: 35px;
+  }
+  
+  .info_contatos a:hover{
+    background-color: #ec823a;
+    color: #fff;
+  }
+  
+  .info_contatos img{
+    width: 25px;
+    margin-right: 5px;
+  }
+    
+
+footer {
+    background-color: #5CA508;
+    color: #fff;
+    text-align: center;
     padding: 10px;
 }
-
-.rodape_logo{
-    width: 120px;
-    margin-right: 10px;
-}
-
